@@ -20,6 +20,11 @@ namespace E_players_Back_end.Models
             CreateFolderAndFile(PATH);
         }
 
+        /// <summary>
+        /// Aplicando métodos da interface
+        /// </summary>
+        /// <param name="n"></param>
+
         public void Create(Noticia n)
         {
             string[] linhas = {PrepararLinha(n)};
