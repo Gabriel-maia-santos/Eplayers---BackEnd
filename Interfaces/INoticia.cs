@@ -8,7 +8,7 @@ namespace E_players_Back_end.Interfaces
          /// <summary>
         /// CRUD
         /// </summary>
-        /// <param name="t"></param>
+        /// <param name="n"></param>
          void Create(Noticia n);
 
          List<Noticia> ReadAll();

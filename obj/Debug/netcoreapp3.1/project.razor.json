@@ -20551,8 +20551,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\xbsbu\\Documents\\Senai\\Projetos - Senai\\E-players Back-end\\Views\\Equipe\\Index.cshtml",
+      "TargetPath": "Views\\Equipe\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\xbsbu\\Documents\\Senai\\Projetos - Senai\\E-players Back-end\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\xbsbu\\Documents\\Senai\\Projetos - Senai\\E-players Back-end\\Views\\Noticias\\Index.cshtml",
+      "TargetPath": "Views\\Noticias\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

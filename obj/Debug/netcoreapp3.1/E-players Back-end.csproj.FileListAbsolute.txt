@@ -1,0 +1,39 @@
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\E-players Back-end.csprojAssemblyReference.cache
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\E-players Back-end.AssemblyInfoInputs.cache
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\E-players Back-end.AssemblyInfo.cs
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\E-players Back-end.csproj.CoreCompileInputs.cache
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\E-players Back-end.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\E-players Back-end.RazorAssemblyInfo.cache
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\E-players Back-end.RazorAssemblyInfo.cs
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\bin\Debug\netcoreapp3.1\E-players Back-end.exe
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\bin\Debug\netcoreapp3.1\E-players Back-end.deps.json
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\bin\Debug\netcoreapp3.1\E-players Back-end.runtimeconfig.json
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\bin\Debug\netcoreapp3.1\E-players Back-end.runtimeconfig.dev.json
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\bin\Debug\netcoreapp3.1\E-players Back-end.dll
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\bin\Debug\netcoreapp3.1\E-players Back-end.pdb
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\bin\Debug\netcoreapp3.1\E-players Back-end.Views.dll
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\bin\Debug\netcoreapp3.1\E-players Back-end.Views.pdb
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\E-players Back-end.TagHelpers.input.cache
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\E-players Back-end.TagHelpers.output.cache
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\E-players Back-end.RazorCoreGenerate.cache
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\E-players Back-end.RazorTargetAssemblyInfo.cache
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\E-players Back-end.RazorTargetAssemblyInfo.cs
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\E-players Back-end.Views.pdb
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\staticwebassets\E-players Back-end.StaticWebAssets.Manifest.cache
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\staticwebassets\E-players Back-end.StaticWebAssets.xml
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\E-players Back-end.dll
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\E-players Back-end.pdb
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\E-players Back-end.genruntimeconfig.cache
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\E-players Back-end.csproj.CopyComplete
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\Razor\Views\Noticia\Index.cshtml.g.cs
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\Razor\Views\Equipe\Index.cshtml.g.cs

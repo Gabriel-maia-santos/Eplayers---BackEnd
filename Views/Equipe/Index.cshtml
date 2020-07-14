@@ -1,0 +1,35 @@
+@model Equipe
+@{
+    ViewData["Title"] = "Equipes";
+}
+
+<form action="@Url.Action("Cadastrar")" method="post">
+
+    <label for="IdTeam">IdEquipe</label>
+    <input type="text" name="IdTeam" id = "IdTeam">
+     <label for="Name">Nome</label>
+    <input type="text" name="Name" id = "Name">
+     <label for="Image">Imagem</label>
+    <input type="text" name="Image" id = "Image">
+
+    <button type="submit">Cadastrar</button>
+    
+</form>
+
+<table class="table table-responsive table-striped">
+    <thead>
+        <th>IdEquipe</th>
+        <th>Nome</th>
+        <th>Imagem</th>
+    </thead>
+    <tbody>
+        @foreach (var item in ViewBag.Equipes)
+        {
+            <tr>
+                <td>@item.IdTeam</td>
+                <td>@item.Name</td>
+                <td>@item.Image</td>
+            </tr>
+        }
+    </tbody>
+</table>
