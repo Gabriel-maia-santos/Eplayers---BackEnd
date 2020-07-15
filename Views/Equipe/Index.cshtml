@@ -3,14 +3,14 @@
     ViewData["Title"] = "Equipes";
 }
 
-<form action="@Url.Action("Cadastrar")" method="post">
+<form action="@Url.Action("Cadastrar")" method="post" enctype="multipart/form-data" >
 
     <label for="IdTeam">IdEquipe</label>
     <input type="text" name="IdTeam" id = "IdTeam">
      <label for="Name">Nome</label>
     <input type="text" name="Name" id = "Name">
      <label for="Image">Imagem</label>
-    <input type="text" name="Image" id = "Image">
+    <input type="file" name="Image" id = "Image">
 
     <button type="submit">Cadastrar</button>
     
@@ -21,6 +21,7 @@
         <th>IdEquipe</th>
         <th>Nome</th>
         <th>Imagem</th>
+        <th>Ações</th>
     </thead>
     <tbody>
         @foreach (var item in ViewBag.Equipes)
@@ -28,7 +29,10 @@
             <tr>
                 <td>@item.IdTeam</td>
                 <td>@item.Name</td>
-                <td>@item.Image</td>
+                <td>
+                    <img src="img/Equipes/@item.Image" alt="Imagem do Time @item.Name"/>
+                </td>
+                <td><a asp-area="" asp-controller="Equipe" asp-action="Excluir" asp-route-id="@item.IdTeam">Excluir</a></td>
             </tr>
         }
     </tbody>

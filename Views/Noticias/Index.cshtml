@@ -4,7 +4,7 @@
     ViewData["Title"] = "Noticia";
 }
 
-<form action="@Url.Action("Cadastrar Noticia")" method="post">
+<form action="@Url.Action("CadastrarNoticia")" method="post">
 
     <label for="IdNews">IdNoticias</label>
     <input type="text" name="IdNews" id = "IdNews">
@@ -13,7 +13,7 @@
      <label for="Text">Texto da Notícias</label>
     <input type="text" name="Text" id = "Text">
      <label for="Image">Imagem da Notícias</label>
-    <input type="text" name="Image" id = "Image">
+    <input type="file" name="Image" id = "Image">
 
     <button type="submit">Cadastrar Notícias</button>
     
@@ -21,19 +21,21 @@
 
 <table class="table table-responsive table-striped">
     <thead>
-        <th>IdNoticia</th>
-        <th>Title</th>
-        <th>Text</th>
+        <th>IdNoticias</th>
+        <th>Titulo</th>
+        <th>Texto</th>
         <th>Imagem</th>
     </thead>
-    <tbody>
-        @foreach (var item in ViewBag.Noticias)
+   <tbody>
+        @foreach (var item in ViewBag.Noticia)
         {
             <tr>
                 <td>@item.IdNews</td>
                 <td>@item.Title</td>
-                <td>@item.Text</td>
-                <td>@item.Image</td>
+                <td>
+                    <img src="img/Noticia/@item.Image" alt="Imagem do Time @item.Title"/>
+                </td>
+                <td><a asp-area="" asp-controller="Noticia" asp-action="Excluir" asp-route-id="@item.IdNews">Excluir</a></td>
             </tr>
         }
     </tbody>

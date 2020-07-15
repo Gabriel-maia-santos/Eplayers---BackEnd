@@ -35,5 +35,5 @@ C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\net
 C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\E-players Back-end.pdb
 C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\E-players Back-end.genruntimeconfig.cache
 C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\E-players Back-end.csproj.CopyComplete
-C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\Razor\Views\Noticia\Index.cshtml.g.cs
 C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\Razor\Views\Equipe\Index.cshtml.g.cs
+C:\Users\xbsbu\Documents\Senai\Projetos - Senai\E-players Back-end\obj\Debug\netcoreapp3.1\Razor\Views\Noticias\Index.cshtml.g.cs

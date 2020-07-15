@@ -15,7 +15,7 @@ namespace E_players_Back_end.Models
         /// <summary>
         /// Criando a Pasta do csv com método construtor
         /// </summary>
-        private const string PATH = "Database/News.csv";
+        private const string PATH = "Database/Noticias.csv";
         public Noticia(){
             CreateFolderAndFile(PATH);
         }
