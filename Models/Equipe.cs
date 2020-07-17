@@ -35,7 +35,7 @@ namespace E_players_Back_end
         }
 
         private string PrepararLinha(Equipe e){
-            return $"{e.IdTeam}; {e.Name}; {e.Image}";
+            return $"{e.IdTeam};{e.Name};{e.Image}";
         }
 
         public void Delete(int IdTeam)

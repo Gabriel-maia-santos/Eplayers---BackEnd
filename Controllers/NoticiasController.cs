@@ -1,9 +1,8 @@
 using System;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
-using E_players_Back_end.Models;
 using System.IO;
-using E_players_Back_end;
+using E_players_Back_end.Models;
 
 namespace E_Players.Controllers
 {
@@ -16,17 +15,17 @@ namespace E_Players.Controllers
             return View();
         }
 
-        public IActionResult CadastrarNoticia(IFormCollection form){
+        public IActionResult Cadastrar(IFormCollection form){
 
             Noticia noticia = new Noticia();
 
-            noticia.IdNews = Int32.Parse(form["IdNews"]);
-            noticia.Title = form["Title"];
-            noticia.Text = form["Text"];
+            noticia.IdNoticia =Int32.Parse(form["IdNoticia"]);
+            noticia.Titulo =form["Titulo"];
+            noticia.Texto =form["Texto"];
             
             //Upload da imagem
-            var file    = form.Files[0];
-            var folder  = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/News");
+            var file    =form.Files[0];
+            var folder  =Path.Combine(Directory.GetCurrentDirectory(),"wwwroot/img/Noticia");
 
             if(file != null)
             {
@@ -35,24 +34,23 @@ namespace E_Players.Controllers
                 }
 
                 //Arquivo.jpg
-                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/", folder, file.FileName);
+                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/",folder,file.FileName);
                 using (var stream = new FileStream(path, FileMode.Create))  
                 {  
-                    file.CopyTo(stream);
+                    file.CopyTo(stream);  
                 }
-                noticia.Image   = file.FileName;
+                noticia.Image   =file.FileName;
             }
             else
             {
-                noticia.Image   = "padrao.png";
+                noticia.Image   ="padrao.png";
             }
-            //Fim do upload
 
 
             noticiaModel.Create(noticia);
 
 
-              return LocalRedirect("~/New");
+              return LocalRedirect("~/Noticias");
         }
 
         //Excluir arquivo
