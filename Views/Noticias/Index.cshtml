@@ -10,6 +10,7 @@
 
 <form class="cadastro" action="@Url.Action("Cadastrar")" method="post" enctype="multipart/form-data">
 
+    @* Arrumando a Responsividade *@
     <div class="campo">
     <label for="IdNoticia">Id de Noticias</label>
     <input type="text" name="IdNoticia" id = "IdNoticia">
@@ -49,6 +50,7 @@
                     <img src="img/Noticia/@item.Image" alt="Imagem da equipe @item.Titulo">
                 </td>
                 <td>
+                    @* fazendo o botão de Excluir *@
                     <a asp-area="" asp-controller="Noticias" asp-action="Excluir" asp-route-id="@item.IdNoticia">
                         <i class="fa fa-trash"></i>
                     </a>
